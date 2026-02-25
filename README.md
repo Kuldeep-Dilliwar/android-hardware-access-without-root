@@ -63,7 +63,7 @@ xorriso -as mkisofs -V CIDATA -J -r -o seed.img user-data meta-data
 ```
 
 ---
-### Termux (qemu aarch64) 2nd terminal
+### Termux (qemu aarch64) 2nd terminal (painfully slow but works)
 ```
 qemu-system-aarch64 \
   -machine virt \
