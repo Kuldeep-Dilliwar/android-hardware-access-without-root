@@ -68,8 +68,8 @@ xorriso -as mkisofs -V CIDATA -J -r -o seed.img user-data meta-data
 qemu-system-aarch64 \
   -machine virt \
   -cpu max \
-  -m 2G \
-  -smp 2 \
+  -m 4G \
+  -smp 4 \
   -bios $PREFIX/share/qemu/edk2-aarch64-code.fd \
   -nographic \
   -drive file=ubuntu-24.04-server-cloudimg-arm64.img,if=virtio \
