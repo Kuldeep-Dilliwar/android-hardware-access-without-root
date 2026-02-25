@@ -111,7 +111,7 @@ veryfy in other 3rd terminal or file exploer for scanned image like FX file expl
 ---
 
 ### some notes:
-* only tested in "HP_LaserJet_Professional_M1136_MFP" it have both printer and scanner, only scanner was tested as there was a proot method to print doc easily.
+* only tested in "HP_LaserJet_Professional_M1136_MFP" it have both printer and scanner, only scanner was tested as there was a proot method to print doc easily (https://github.com/Kuldeep-Dilliwar/android-printer).
 * NOTE- Very slow scanning the motor in hardwere moves fast but the data through usb and qemu didn't the blub might stop and run, and might result in choopy scan but the quality were very good.
 * It is the only way I found to use scanner in Termux without root. 
 * The method might be used to bridge other hardware with using natively compiled usb `usbredirect` then must specify the device type in qemu arguments `-chardev socket,host=127.0.0.1,port=23456,id=c1,server=off ` .
