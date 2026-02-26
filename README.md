@@ -7,16 +7,16 @@ update everything
 pkg update && yes | pkg upgrade
 ```
 ```
-pkg i \
-    wget \
-    glib \
-    ninja \
-    libusb \
-    xorriso \
-    termux-api \
-    git python \
-    pkg-config \
-    qemu-utils \
+pkg i              \
+    wget           \
+    glib           \
+    ninja          \
+    libusb         \
+    xorriso        \
+    termux-api     \
+    git python     \
+    pkg-config     \
+    qemu-utils     \
     netcat-openbsd \
     qemu-system-aarch64-headless 
 ```
@@ -24,7 +24,10 @@ pkg i \
 pip install meson
 ```
 ```
-git clone --depth 1 https://gitlab.freedesktop.org/spice/usbredir.git
+git \
+    clone         \
+    --depth 1     \
+    https://gitlab.freedesktop.org/spice/usbredir.git
 cd usbredir
 meson setup build
 ninja -C build
