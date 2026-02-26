@@ -118,6 +118,9 @@ apt install hplip
 ```
 hp-plugin -i
 ```
+```
+hp-scan
+```
 
 ---
 ## pulling our the scan or data
